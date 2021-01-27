@@ -1,4 +1,4 @@
-#Learn from men with hair on their chest. CGMasters.net
+#This script runs on the large vehicle garage in the game, and will spawn the hovercar when run
 import bge
 
 
