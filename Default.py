@@ -11,11 +11,13 @@ JUST_ACTIVATED = bge.logic.KX_INPUT_JUST_ACTIVATED
 inv1 = scene.objects['inventoryslot1']
 inv2 = scene.objects['inventoryslot2']
 Rhand = scene.objects['R_hand']
-boxxytalk = {
- 0 : "Boxxy",
- 1 : "Hi there %s." % (name) + "\n" + "My name is Boxxy!",
- 2 : "I can't talk now." + "\n" + "I have important Box things to do!"
-}
+
+##Boxytalk was list to be used in testing the conversation with Boxxy, however, this character was later removed. This code will likely also be removed later
+#boxxytalk = {
+ #0 : "Boxxy",
+ #1 : "Hi there %s." % (name) + "\n" + "My name is Boxxy!",
+# 2 : "I can't talk now." + "\n" + "I have important Box things to do!"
+#}
 
 def getheadempty():
 	for headempty in bge.logic.getCurrentController().owner.children:
@@ -266,6 +268,7 @@ def main():
 		pass
 
 		#if player is near a pickup item, find out what he's picking up.
+		#####Future Key####
 
 
 		
