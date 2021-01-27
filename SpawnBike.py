@@ -1,4 +1,4 @@
-#Learn from men with hair on their chest. CGMasters.net
+#This script runs on the small vehicle spawn pad in the game, and will spawn the motorbike when run
 import bge
 
 
