@@ -1,4 +1,4 @@
-#Learn from men with hair on their chest. CGMasters.net
+#Altered version of the mouselook script to be run by the hoverbike, controlling the direction the vehicle travels with the movement.
 import bge
 from bge import render as r
 import math
