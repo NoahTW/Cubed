@@ -1,7 +1,5 @@
 import bge
 cont = bge.logic.getCurrentController()
-#own = cont.owner
-#cene = bge.logic.getCurrentScene()
 bge.logic.mouse.visible = True
 if 'hairmesh' not in bge.logic.globalDict and 'playercolor' not in bge.logic.globalDict and 'haircolor' not in bge.logic.globalDict:
 	bge.logic.globalDict['playercolor'] = [0.8, 0.8, 0.8, True]
