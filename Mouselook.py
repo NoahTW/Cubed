@@ -1,4 +1,4 @@
-#Learn from men with hair on their chest. CGMasters.net
+#Lookaround with the camera. Keep the character head tracking the same direction
 import bge
 from bge import render as r
 import math
