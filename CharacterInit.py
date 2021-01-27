@@ -10,10 +10,7 @@ def getheadempty():
 			return headempty
 headempty = getheadempty()
 
-objects = {
-# 'laser' : bge.logic.getCurrentScene().objects['Laser'],
 
-}
 
 def loadcolor():
 	cont = bge.logic.getCurrentController()
@@ -27,6 +24,7 @@ def loadhair():
 def loadplayerlocation():
 	cont = bge.logic.getCurrentController()
 	scene = bge.logic.getCurrentScene()
+	#Placeholder code
 	#cont.owner.worldPosition = bge.logic.getCurrentScene().objects['Spawn1'].worldPosition#bge.logic.globalDict['CharacterPosition']
 	#if bge.logic.globalDict['inventory1'] != "":
 	
